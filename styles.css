@@ -81,7 +81,7 @@ body {
     width: 125px;
     height: 40px;
     font-size: 20px;
-    background-color: #1565C0;
+    background-color: #3882F6;
     color: white;
     font-weight: 600;
 }
@@ -174,4 +174,62 @@ body {
 .author {
     align-self: flex-end;
     font-weight: bold;
+    font-size: 20px;
+}
+
+.banner-container {
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #3A86FF;
+    height: 100px;
+
+}
+
+.call-to-action {
+    margin-left: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.note {
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 5px;
+    color: #D3D3D3;
+}
+
+.alt-signup {
+    margin-right: 100px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    width: 125px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 600;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-text {
+    margin-top: 45px;
+    color: white;
 }
